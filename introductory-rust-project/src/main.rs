@@ -2,6 +2,9 @@
 
 fn main() {
     let first_name = "John";
-    let last_name = "Doe";
-    println!("Your name is {} {}.", first_name, last_name);
+    println!("Your name is {}", first_name);
+
+    let age = 30u8;
+    println!("Your age is {}", age);
+
 }
